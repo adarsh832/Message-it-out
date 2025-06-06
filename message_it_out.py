@@ -8,7 +8,7 @@ x=""
 
 def generate(user, message, emotion):
     client = genai.Client(
-        api_key="AIzaSyDCqj_nQB68kpV9FtfM4G0i2_wdsSi4LDw",
+        api_key="",
     )
 
     model = "gemini-2.0-flash-lite"
